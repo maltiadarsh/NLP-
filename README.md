@@ -1,4 +1,4 @@
-# NLp
+# NLP (Text Recogonization )
 # Approach of Solution
 ##  Setup and Initialization:
 •	Imported necessary libraries for data handling (pandas), web scraping (requests and Beautiful Soup), text processing (nltk and TextBlob), and file handling (os and docx).
