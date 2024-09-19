@@ -11,6 +11,7 @@
 •	Defined a function extract_text(url) to fetch the webpage content, parse it, and extract the article’s title and body text. This function assumes the article’s main content is contained within <p> tags.
 ##  Processing URLs:
 •	Iterated over each row in the DataFrame, extracted the URL and URL ID, and used the extraction function to get the article’s title and text.
+
 •	Saved each article’s text in a file named after its URL ID and also added the text to a Word document for later review.
 ##  Sentiment and Text Analysis:
 •	Defined a get_sentiment(text) function to compute the sentiment polarity using TextBlob.
