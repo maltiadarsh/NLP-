@@ -41,7 +41,7 @@ o	Calculated sentiment and subjectivity scores.
                             cd path/to/your/directory
 	Execute the script by running:
  python web_scraping_analysis.py
-•	Check Outputs:
+## 	Check Outputs:
 	Text Files: The script will create a directory named extracted_articles with text files for each article, named after their URL IDs.
 	Word Document: A Word document named Text Analysis.docx will be created in the same directory as your script. This document will contain the extracted articles.
 	Excel File: An Excel file named Output Data.xlsx will be generated, containing the analysis results of the articles.
@@ -49,8 +49,8 @@ o	Calculated sentiment and subjectivity scores.
 	Open the extracted_articles directory to find the text files.
 	Open Text Analysis.docx to review the extracted text in a formatted document.
 	Open Output Data.xlsx with Excel or another spreadsheet program to view the analysis results.
-Required Dependencies
-The list of all the required dependencies:
+# Required Dependencies
+## The list of all the required dependencies:
 1.	pandas: For handling data in DataFrames and working with Excel files.
 2.	beautifulsoup4: For parsing HTML and extracting data from web pages.
 3.	requests: For sending HTTP requests to fetch web page content.
