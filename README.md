@@ -15,6 +15,7 @@
 •	Saved each article’s text in a file named after its URL ID and also added the text to a Word document for later review.
 ##  Sentiment and Text Analysis:
 •	Defined a get_sentiment(text) function to compute the sentiment polarity using TextBlob.
+
 •	Created an analyze_text(text) function to perform various text analyses:
 o	Tokenized text into sentences and words.
 o	Removed stopwords and computed metrics like average sentence length, percentage of complex words, FOG index, word count, and syllable count.
